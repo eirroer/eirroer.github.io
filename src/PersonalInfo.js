@@ -13,7 +13,7 @@ function PersonalInfo() {
           <div className="personal-info__description">
             <img
               className="personal-info__profile-pic"
-              alt="Profile picture of Eirik Fløtre Rørstad"
+              alt="Eirik Fløtre Rørstad"
               src={profilePic}
               width="200px"
               height="200px"

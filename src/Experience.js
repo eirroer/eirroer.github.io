@@ -1,7 +1,6 @@
 import React from "react";
 import Project from "./Project";
 import "./Experience.css";
-import LinkedIn from "./img/linkedin.png";
 
 function Experience() {
   return (
