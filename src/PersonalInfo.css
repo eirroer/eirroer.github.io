@@ -1,0 +1,52 @@
+.personal-info__container {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1em;
+    background-color: #AEB5BF;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ccc;
+    border-radius: 0.5em;
+}
+
+.personal-info__description {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    padding: 1em;
+    width: 90%;
+} 
+.personal-info__personalia{
+    margin: 1em;
+}
+
+/* Styles for the personal-info__container element within personal-info block */
+.personal-info__pictures {
+    display: flex;
+    flex-flow: row wrap;
+    /* background-color: #64616156; */
+    height: fit-content;
+    padding: 1em;
+    width: 90%;
+    justify-content: space-around;
+}
+
+/* Styles for the personal-info__links element within personal-info block */
+.personal-info__links {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    width: 60%;
+}
+
+/* Styles for the personal-info__link element within personal-info block */
+.personal-info__links a{
+    margin: 1em 1em 0.1em 1em;
+}
+
+.personal-info__links a:hover{
+    cursor: pointer;
+}

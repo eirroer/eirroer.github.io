@@ -1,0 +1,21 @@
+.projects__title{
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+/* Styles for individual project elements within projects block */
+.project {
+    width: 45%;
+    margin-bottom: 1em;
+    padding: 1.5em;
+    border: 1px solid #ccc;
+    background-color: #AEB5BF;
+    border-radius: 0.5em;
+}
+
+/* Media query for screens with a maximum width of 640px */
+@media screen and (max-width: 640px) {    
+    .project {
+        width: 100%;
+    }
+}
