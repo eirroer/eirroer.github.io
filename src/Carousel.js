@@ -22,6 +22,8 @@ function Carousel({ images }) {
     return (
     <div className="carousel">
         <img
+            className="carousel_image"
+            alt="Carousel"
           key={currentIndex}
           src={images[currentIndex]}
         />
